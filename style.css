@@ -1,0 +1,82 @@
+body{
+
+    background-color: #E5E9F2;
+    margin: 0;
+    width: 90.9%;
+    height: 150%;
+    
+    
+}
+
+nav{
+
+    
+
+    width: 110%;
+    height: 61px;
+    display:flex;
+    padding:1px 3px;
+    align-items: center;
+    width: 1533px;
+    
+ 
+
+
+    
+    
+
+    background-color: #00115D;
+}
+
+.sign-in{
+
+    text-align: center
+    ;
+    font-family: Lato;
+}
+
+.nav{grid-area: nav;}
+.sign-in{grid-area: main;}
+
+.grid-container{
+
+    display: grid;
+    grid-template-areas: 
+    'nav nav nav nav nav nav'
+    'main main main main main'
+    ;
+
+    padding: 0%;
+    
+
+
+}
+
+#email1, #password1, #fName, #lName, #email2, #password2{
+
+    width: 400px;
+    height: 25px;
+}
+
+#Sign-in, #Sign-up{
+
+    background-color: #140076;
+    color: white;
+    width: 246.91px;
+    height: 42.79px;
+
+
+}
+
+#passText{
+
+    font-size: small;
+}
+
+#profile{
+
+    color: white;
+    margin-left: 150px;
+    
+    
+}

@@ -1,0 +1,113 @@
+body{
+
+    background-color: #061FF810;
+    margin: 0;
+    width: 90.9%;
+    height: 150%;
+    
+}
+
+nav{
+
+    
+
+    width: 110%;
+    height: 61px;
+
+    display:flex;
+    justify-content: space-between;
+    padding:1px 3px 1px 1px;
+    align-items: center;
+    width: 1533px;
+    
+    
+ 
+
+
+    
+    
+
+    background-color: #00115D;
+}
+
+.left{grid-area: left;}
+.right{grid-area: right;}
+.bottom{grid-area: bottom;}
+
+.grid-container{
+
+    display: grid;
+    grid-template-areas: 
+    'left left left left left'
+    'right right right right right'
+    
+    'bottom bottom bottom bottom bottom'
+    ;
+
+    
+
+    padding: 10px;
+    
+
+
+}
+
+
+
+#profile{
+
+    color: white;
+    margin-left: 150px;
+    
+    
+    
+}
+
+#badges{
+
+    color: white;
+    margin-left: 50px;
+    
+   
+    
+    
+}
+
+#logout{
+
+    
+    margin-left: 1170px;
+
+    background-color: #E30046;
+
+    color: white;
+    
+
+   
+    
+    
+}
+
+#title{
+
+
+    font-family: Lato;
+
+    color: #47525E;
+}
+
+h5{
+
+    color: #8190A5;
+}
+
+#dashboard{
+
+    width: 1305px;
+
+    height: 400px;
+
+    background-color: black;
+}
+
+
